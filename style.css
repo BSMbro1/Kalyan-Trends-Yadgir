@@ -374,3 +374,29 @@ footer {
 #contact .shop-btn {
     margin-top: 25px;
 }
+/* SOCIAL MEDIA LINKS */
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.footer-social h3 {
+    color: #c49a55;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+}
+
+.footer-social a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #c49a55;
+}
